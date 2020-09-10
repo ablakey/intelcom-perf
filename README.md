@@ -52,3 +52,11 @@ This part I kind of suck at. I'm sure the stats experts know how to do this.
 ## Validation
 
 - Populate every field. If any field is unpopulated, throw an error and we'll investigate and understand better (probably regex error)
+
+
+
+# For Write-up:
+
+- why do I output to JSON?  Nice escape hatch to examine data. Helps break the themes up: script for parsing metadata, script for doing analysis.
+- why so slow? Why no concurrency? Why not library?
+- Future idea: is this changing over time?
