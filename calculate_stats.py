@@ -1,5 +1,5 @@
 """
-TODO
+Build some matplotlib histograms showing stuff about the deliveries.
 """
 import argparse
 import json
