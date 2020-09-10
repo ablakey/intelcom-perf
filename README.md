@@ -8,3 +8,10 @@ A more full write-up: https://todays.pointless.click/projects/intelcom.html
 
 Python >=3.6
 requirements.txt
+
+# Usage
+```
+python3 get_intelcom_metadata.py ./mailbox.mbox ./output.json
+
+python3 calculate_stats.py ./output.json
+```
